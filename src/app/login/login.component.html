@@ -1,0 +1,14 @@
+<h1 class="text-center">Login Form</h1>
+<form>
+    <div class="form-group">
+        <label for="InputEmailid">Email Address</label>
+        <input type="email" class="form-control" name="email" [(ngModel)]="email">
+
+    </div>
+    <div class="form-group">
+        <label for="Inputpassword">Password</label>
+        <input type="password" class="form-control" name="password" [(ngModel)]="password">
+        
+    </div>
+    <button type="Submit" class="btn btn-primary" (click)="logInUser()">Submit</button>
+</form>

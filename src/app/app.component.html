@@ -1,0 +1,41 @@
+<nav class="navbar navbar-expand-sm bg-primary navbar-dark bg-dark">
+    <div><img style="height: 90px;" src="https://developer.fieldnation.com/img/1645683-2000px-ZOHO.png"></div>
+
+<p style="padding-top: 60px; padding-left: 0px; text-shadow: 2px 2px 5px red;
+color:rgb(214, 194, 127);font-weight: bolder;font-size: 25px;"> ZOHO ENGINEERING COLLEGE FOR WOMENS. </p>
+</nav>
+<nav class="navbar navbar-expand-sm bg-primary navbar-dark bg-dark">
+    <ul class = "navbar-nav">
+        <li class = "nav-item">
+            <a routerLink="login" routerLinkActive="active" class="nav-link" >Login Form</a>
+        </li>
+        <li class = "nav-item">
+            <a routerLink="homepage" routerLinkActive="active" class="nav-link" >Home Page</a>
+        </li>
+        
+        <li class = "nav-item">
+            
+            <a routerLink="employees" routerLinkActive="active" class="nav-link" >Employee List</a>
+        </li>
+        <li class = "nav-item">
+            <a routerLink="create-employee" routerLinkActive="active" class="nav-link" >Add Employee</a>
+        </li>
+        <li class = "nav-item">
+            <a routerLink="students" routerLinkActive="active" class="nav-link" >List Students</a>
+        </li>
+        <li class = "nav-item">
+            <a routerLink="create-student" routerLinkActive="active" class="nav-link" >Add Student</a>
+        </li>
+        
+    </ul>
+</nav>
+
+<h1 class="text-center"> {{title}} </h1>
+<div class = "container">
+    <router-outlet></router-outlet>
+</div>
+<footer class = "footer bg-dark">
+    <div class = "container">
+        <span>All Rights Reserved 2023 @Copyrights</span>
+    </div>
+</footer>
